@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "NERO",
+    "tagline": "خطط لوقتك. امتلك يومك."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "calendar": "التقويم",
+    "tasks": "المهام",
+    "goals": "الأهداف",
+    "profile": "الملف الشخصي"
+  },
+  "home": {
+    "greeting_morning": "صباح الخير",
+    "greeting_afternoon": "مساء الخير",
+    "greeting_evening": "مساء الخير",
+    "next_up": "التالي",
+    "today_summary": "ملخص اليوم",
+    "quick_actions": "إجراءات سريعة",
+    "tasks": "المهام",
+    "appointments": "المواعيد",
+    "reminders": "التذكيرات"
+  }
+}
