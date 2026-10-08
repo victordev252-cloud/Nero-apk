@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "NERO",
+    "tagline": "Plan your time. Own your day."
+  },
+  "nav": {
+    "home": "Home",
+    "calendar": "Calendar",
+    "tasks": "Tasks",
+    "goals": "Goals",
+    "profile": "Profile"
+  },
+  "home": {
+    "greeting_morning": "Good morning",
+    "greeting_afternoon": "Good afternoon",
+    "greeting_evening": "Good evening",
+    "next_up": "NEXT UP",
+    "today_summary": "Today Summary",
+    "quick_actions": "Quick Actions",
+    "tasks": "Tasks",
+    "appointments": "Appointments",
+    "reminders": "Reminders"
+  }
+}
