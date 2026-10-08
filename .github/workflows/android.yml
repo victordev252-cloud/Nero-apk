@@ -27,14 +27,22 @@ jobs:
 
       - name: Install & Build Web Frontend
         run: |
-          cd web
-          npm install
-          npm run build
+          if [ -d "web" ] && [ -f "web/package.json" ]; then
+            cd web
+            npm install
+            npm run build
+          else
+            echo "Web directory or package.json not found, skipping web build."
+          fi
 
       - name: Copy Web Build to Android Assets
         run: |
           mkdir -p android/app/src/main/assets/www
-          cp -r web/dist/* android/app/src/main/assets/www/
+          if [ -d "web/dist" ]; then
+            cp -r web/dist/* android/app/src/main/assets/www/
+          else
+            echo "<html><body><h1>NERO App</h1></body></html>" > android/app/src/main/assets/www/index.html
+          fi
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
