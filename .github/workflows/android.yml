@@ -28,7 +28,7 @@ jobs:
       - name: Install & Build Web Frontend
         run: |
           cd web
-          npm ci
+          npm install
           npm run build
 
       - name: Copy Web Build to Android Assets
