@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "NERO",
+    "tagline": "Qorshee waqtigaaga. Ha illoobin waxa muhiimka ah."
+  },
+  "nav": {
+    "home": "Hoyga",
+    "calendar": "Kalandarka",
+    "tasks": "Hawlaha",
+    "goals": "Yoolal",
+    "profile": "Xogta"
+  },
+  "home": {
+    "greeting_morning": "Subax wanaagsan",
+    "greeting_afternoon": "Galab wanaagsan",
+    "greeting_evening": "Habeen wanaagsan",
+    "next_up": "XIGA",
+    "today_summary": "Khasabka Maanta",
+    "quick_actions": "Lahaansho Degdeg ah",
+    "tasks": "Hawlo",
+    "appointments": "Ballamo",
+    "reminders": "Xusuusiyayaal"
+  }
+}
